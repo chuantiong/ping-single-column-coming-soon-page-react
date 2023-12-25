@@ -5,15 +5,15 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__icons-wrapper">
-                <div className="footer__icon">
+                <a className="footer__icon" href="#">
                     <FontAwesomeIcon icon={faFacebookF} />
-                </div>
-                <div className="footer__icon">
+                </a>
+                <a className="footer__icon" href="#">
                     <FontAwesomeIcon icon={faTwitter} />
-                </div>
-                <div className="footer__icon">
+                </a>
+                <a className="footer__icon" href="#">
                     <FontAwesomeIcon icon={faInstagram} />
-                </div>
+                </a>
             </div>
             <span className="footer__text">&copy; Copyright Ping. All rights reserved.</span>
         </footer>

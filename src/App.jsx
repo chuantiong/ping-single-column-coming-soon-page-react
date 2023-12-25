@@ -6,12 +6,14 @@ import Attribution from "./components/Attribution";
 const App = () => {
 
   return (
-    <main className="container">
-      <Hero />
-      <img className="dashboard-img" src={dashboardImage} alt="Illustration dashboard" />
-      <Footer />
+    <>
+      <main className="main">
+        <Hero />
+        <div className="container"><img className="dashboard-img" src={dashboardImage} alt="Illustration dashboard" /></div>
+        <Footer />
+      </main>
       <Attribution />
-    </main>
+    </>
   )
 }
 
