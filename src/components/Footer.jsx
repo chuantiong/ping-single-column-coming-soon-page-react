@@ -15,7 +15,9 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faInstagram} />
                 </a>
             </div>
-            <span className="footer__text">&copy; Copyright Ping. All rights reserved.</span>
+            <span className="footer__text">
+                &copy; Copyright Ping. All rights reserved.
+            </span>
         </footer>
     )
 };
