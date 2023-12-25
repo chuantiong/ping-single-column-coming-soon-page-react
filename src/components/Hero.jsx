@@ -28,6 +28,10 @@ const Hero = () => {
                         type="text"
                         placeholder="Your email address..."
                         onChange={handleEmailInput}
+                        style={{
+                            outline: isValidEmail ? "none" : "1px solid #ff5263",
+                            border: isValidEmail ? "1px solid #c2d3ff" : "none"
+                        }}
                     />
                     <span 
                         className="subscribe__error-message"
